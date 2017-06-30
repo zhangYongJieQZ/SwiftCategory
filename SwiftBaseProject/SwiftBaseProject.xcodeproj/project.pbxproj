@@ -25,6 +25,7 @@
 		C1D2A5051F05E4AE006CDF2F /* ViewEntrance.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D2A5041F05E4AE006CDF2F /* ViewEntrance.swift */; };
 		C1D2A5071F05E50D006CDF2F /* YJBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D2A5061F05E50D006CDF2F /* YJBaseModel.swift */; };
 		C1D2A50D1F05E91B006CDF2F /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D2A50C1F05E91B006CDF2F /* UIImageExtension.swift */; };
+		C1D2A50F1F05F631006CDF2F /* YJAdScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D2A50E1F05F631006CDF2F /* YJAdScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		C1D2A5061F05E50D006CDF2F /* YJBaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJBaseModel.swift; sourceTree = "<group>"; };
 		C1D2A5081F05E6D5006CDF2F /* SwiftBaseProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftBaseProject-Bridging-Header.h"; sourceTree = "<group>"; };
 		C1D2A50C1F05E91B006CDF2F /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		C1D2A50E1F05F631006CDF2F /* YJAdScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJAdScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 				C1D2A5041F05E4AE006CDF2F /* ViewEntrance.swift */,
 				C1D2A5061F05E50D006CDF2F /* YJBaseModel.swift */,
 				C1D2A50C1F05E91B006CDF2F /* UIImageExtension.swift */,
+				C1D2A50E1F05F631006CDF2F /* YJAdScrollView.swift */,
 			);
 			path = BaseUIKit;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				C1D2A5071F05E50D006CDF2F /* YJBaseModel.swift in Sources */,
 				C1D2A50D1F05E91B006CDF2F /* UIImageExtension.swift in Sources */,
 				C1D2A4F71F05E2C3006CDF2F /* ViewControllerExtension.swift in Sources */,
+				C1D2A50F1F05F631006CDF2F /* YJAdScrollView.swift in Sources */,
 				C1D2A4DF1F05E149006CDF2F /* AppDelegate.swift in Sources */,
 				C1D2A5031F05E454006CDF2F /* StringExtension.swift in Sources */,
 				C1D2A5011F05E425006CDF2F /* YJFont.swift in Sources */,
