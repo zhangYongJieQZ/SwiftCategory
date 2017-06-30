@@ -1,0 +1,16 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'SwiftBaseProject' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'AFNetworking'
+  pod 'SVProgressHUD'
+  pod 'Masonry'
+  pod 'SDWebImage'
+  pod 'YYModel'
+  pod 'MJRefresh'
+
+  # Pods for SwiftBaseProject
+
+end
