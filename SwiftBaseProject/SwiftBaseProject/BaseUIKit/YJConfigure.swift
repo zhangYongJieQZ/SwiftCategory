@@ -27,9 +27,9 @@ class Configure: NSObject {
     
     class func calcateWidth(str:String!,font:UIFont!) -> CGFloat{
         let statusText:NSString = str as NSString
-        let attributes = [NSFontAttributeName:font]
+        let attributes = [NSAttributedString.Key.font:font]
         let option = NSStringDrawingOptions.usesLineFragmentOrigin
-        let rect:CGRect = statusText.boundingRect(with: CGSize.init(width: screenWidth, height: 999), options: option, attributes: attributes, context: nil);
+        let rect:CGRect = statusText.boundingRect(with: CGSize.init(width: screenWidth, height: 999), options: option, attributes: attributes as [NSAttributedString.Key : Any], context: nil);
         let width = rect.size.width + 2;
         return width
     }

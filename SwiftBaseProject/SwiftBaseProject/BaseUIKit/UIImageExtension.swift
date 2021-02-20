@@ -28,7 +28,7 @@ extension UIImage{
         let barcodeImage = colorFilter?.outputImage
         let scaleX = size.width / (barcodeImage?.extent.size.width)!
         let scaleY = size.height / (barcodeImage?.extent.size.height)!
-        let transformedImage = barcodeImage?.applying(CGAffineTransform.init(scaleX: scaleX, y: scaleY))
+        let transformedImage = barcodeImage?.transformed(by: CGAffineTransform.init(scaleX: scaleX, y: scaleY))
         return UIImage.init(cgImage: transformedImage as! CGImage)
     }
     
@@ -38,6 +38,6 @@ extension UIImage{
         let data = code.data(using: String.Encoding.utf8)
         filter?.setValue(data, forKey: "inputMessage")
         let outputImage = filter?.outputImage
-        return UIImage.init(ciImage: outputImage!, scale: 20.0, orientation: UIImageOrientation.up)
+        return UIImage.init(ciImage: outputImage!, scale: 20.0, orientation: UIImage.Orientation.up)
     }
 }

@@ -10,15 +10,15 @@ import Foundation
 import UIKit
 
 func showSheetView(title:String,message:String,actionArray:[String], viewController:UIViewController, succeed:@escaping(Any?) -> (), failure : @escaping(Any?) -> ()){
-    let actionSheet = UIAlertController.init(title: title, message: message, preferredStyle: UIAlertControllerStyle.actionSheet)
+    let actionSheet = UIAlertController.init(title: title, message: message, preferredStyle: UIAlertController.Style.actionSheet)
     for i in 0...(actionArray.count - 1){
         let title = actionArray[i]
-        let action = UIAlertAction.init(title: title, style: UIAlertActionStyle.default, handler: { (UIAlertAction) in
+        let action = UIAlertAction.init(title: title, style: UIAlertAction.Style.default, handler: { (UIAlertAction) in
             succeed(i)
         });
         actionSheet.addAction(action)
     }
-    let cancelAction = UIAlertAction.init(title: "取消", style: UIAlertActionStyle.cancel) { (UIAlertAction) in
+    let cancelAction = UIAlertAction.init(title: "取消", style: UIAlertAction.Style.cancel) { (UIAlertAction) in
         failure("取消")
         actionSheet.dismiss(animated: true, completion: nil)
     }
@@ -27,8 +27,8 @@ func showSheetView(title:String,message:String,actionArray:[String], viewControl
 }
 
 func showAlertCancelView(title:String, message:String, viewController:UIViewController) -> () {
-    let actionSheet = UIAlertController.init(title: title, message: message, preferredStyle: UIAlertControllerStyle.alert)
-    let cancelAction = UIAlertAction.init(title: "取消", style: UIAlertActionStyle.cancel) { (UIAlertAction) in
+    let actionSheet = UIAlertController.init(title: title, message: message, preferredStyle: UIAlertController.Style.alert)
+    let cancelAction = UIAlertAction.init(title: "取消", style: UIAlertAction.Style.cancel) { (UIAlertAction) in
         actionSheet.dismiss(animated: true, completion: nil)
     }
     actionSheet.addAction(cancelAction)
@@ -36,8 +36,8 @@ func showAlertCancelView(title:String, message:String, viewController:UIViewCont
 }
 
 func showAlertSureView(title:String, message:String, viewController:UIViewController) -> () {
-    let actionSheet = UIAlertController.init(title: title, message: message, preferredStyle: UIAlertControllerStyle.alert)
-    let cancelAction = UIAlertAction.init(title: "确定", style: UIAlertActionStyle.cancel) { (UIAlertAction) in
+    let actionSheet = UIAlertController.init(title: title, message: message, preferredStyle: UIAlertController.Style.alert)
+    let cancelAction = UIAlertAction.init(title: "确定", style: UIAlertAction.Style.cancel) { (UIAlertAction) in
         actionSheet.dismiss(animated: true, completion: nil)
     }
     actionSheet.addAction(cancelAction)
@@ -45,14 +45,14 @@ func showAlertSureView(title:String, message:String, viewController:UIViewContro
 }
 
 func showAlertView(title:String, message:String!, viewController:UIViewController,sureAction:@escaping() -> (), cancelAction : @escaping() -> ()){
-    let actionSheet = UIAlertController.init(title: title, message: message, preferredStyle: UIAlertControllerStyle.alert)
-    let cancelActionS = UIAlertAction.init(title: "取消", style: UIAlertActionStyle.cancel) { (UIAlertAction) in
+    let actionSheet = UIAlertController.init(title: title, message: message, preferredStyle: UIAlertController.Style.alert)
+    let cancelActionS = UIAlertAction.init(title: "取消", style: UIAlertAction.Style.cancel) { (UIAlertAction) in
         cancelAction()
         actionSheet.dismiss(animated: true, completion: nil)
     }
     actionSheet.addAction(cancelActionS)
     
-    let sureActionS = UIAlertAction.init(title: "确定", style: UIAlertActionStyle.default) { (UIAlertAction) in
+    let sureActionS = UIAlertAction.init(title: "确定", style: UIAlertAction.Style.default) { (UIAlertAction) in
         sureAction()
         actionSheet.dismiss(animated: true, completion: nil)
     }

@@ -38,7 +38,7 @@ class NetWorkTool: AFHTTPSessionManager {
 //                NotificationCenter.default.post(name: NSNotification.Name(rawValue: logoutNotification), object: nil)
             }
             if responseDit.value(forKey: "status") as! Int != 200 {
-                SVProgressHUD.show(nil, status: responseDit.value(forKey: "message") as! String)
+                SVProgressHUD.show(nil, status: responseDit.value(forKey: "message") as? String)
             }
             resultBlock(responseObj , nil)
         }
@@ -73,7 +73,7 @@ class NetWorkTool: AFHTTPSessionManager {
 //                NotificationCenter.default.post(name: NSNotification.Name(rawValue: logoutNotification), object: nil)
             }
             if responseDit.value(forKey: "status") as! Int != 200{
-                SVProgressHUD.show(nil, status: responseDit.value(forKey: "message") as! String)
+                SVProgressHUD.show(nil, status: responseDit.value(forKey: "message") as? String)
             }
             succeed(responseObj)
         }
@@ -108,7 +108,7 @@ class NetWorkTool: AFHTTPSessionManager {
             failure(error)
         }
         post(url, parameters: parameters, constructingBodyWith: { (formData) in
-            let imageData = UIImageJPEGRepresentation(file, 0.3)
+            let imageData = file.jpegData(compressionQuality: 0.3)
             let fileString = String.init(NSString.init(format: "%@", NSDate.init(timeIntervalSinceNow: 0).timeIntervalSince1970))
             formData.appendPart(withFileData: imageData!, name: "body", fileName: fileString, mimeType: "image/jpeg")
         }, progress: { (progress) in

@@ -47,6 +47,6 @@ func getHeightFromAttributedString(textString:String,font:UIFont,spacing:NSInteg
     let str = NSString.init(string: textString)
     let paraStyle = NSMutableParagraphStyle.init()
     paraStyle.lineSpacing = 10
-    let contentSize = str.boundingRect(with: CGSize.init(width: mainScreenWidth() - CGFloat(spacing * 2), height: CGFloat.greatestFiniteMagnitude), options: NSStringDrawingOptions.usesLineFragmentOrigin, attributes: [NSFontAttributeName:font,NSParagraphStyleAttributeName:paraStyle], context: nil)
+    let contentSize = str.boundingRect(with: CGSize.init(width: mainScreenWidth() - CGFloat(spacing * 2), height: CGFloat.greatestFiniteMagnitude), options: NSStringDrawingOptions.usesLineFragmentOrigin, attributes: [NSAttributedString.Key.font:font,NSAttributedString.Key.paragraphStyle:paraStyle], context: nil)
     return contentSize.height
 }

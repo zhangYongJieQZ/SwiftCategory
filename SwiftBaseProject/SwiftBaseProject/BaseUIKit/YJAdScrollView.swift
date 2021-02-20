@@ -57,7 +57,7 @@ class ZYJADScrollView: UIScrollView ,UIScrollViewDelegate{
         pageControl?.currentPage = 0
         pageControl?.isEnabled = false
         superView.addSubview(pageControl!)
-        superView.bringSubview(toFront: pageControl!)
+        superView.bringSubviewToFront(pageControl!)
         _ = pageControl?.mas_makeConstraints({ (make:MASConstraintMaker?) in
             _ = make?.centerX.equalTo()(superView.mas_centerX)
             _ = make?.width.mas_equalTo()(20 * CGFloat.init((self.dataModel?.count)!))
@@ -66,7 +66,7 @@ class ZYJADScrollView: UIScrollView ,UIScrollViewDelegate{
         })
     }
     
-    func jumpToWebView() -> () {
+    @objc func jumpToWebView() -> () {
         if self.adDelegate != nil {
 //            let detailModel = self.dataModel?.data.list.object(at: currentPage) as! HomeBannerDetailModel
             self.adDelegate?.openLinkUrl(linkUrl: "")
@@ -141,7 +141,7 @@ class ZYJADScrollView: UIScrollView ,UIScrollViewDelegate{
         timer = Timer.scheduledTimer(timeInterval: scroll_timer, target: self, selector: #selector(ZYJADScrollView.startScroll), userInfo: nil, repeats: true)
     }
     
-    func startScroll() -> () {
+    @objc func startScroll() -> () {
         self.setContentOffset(CGPoint.init(x: self.width() * CGFloat.init(2), y: 0), animated: true)
         isTimeToScroll = true
         Timer.scheduledTimer(timeInterval: 0.4, target: self, selector: #selector(ZYJADScrollView.scrollViewDidEndDecelerating(_:)), userInfo: nil, repeats: false)

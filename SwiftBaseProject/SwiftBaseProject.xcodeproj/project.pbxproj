@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		BF3F2CA3180BB01080F1F41D /* Pods_SwiftBaseProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE8219A2D95CB774FD26591 /* Pods_SwiftBaseProject.framework */; };
+		C11FE12925E0FFA800BC89D8 /* String+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11FE12825E0FFA800BC89D8 /* String+Util.swift */; };
+		C11FE12D25E1006300BC89D8 /* Optional+Numeric.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11FE12C25E1006300BC89D8 /* Optional+Numeric.swift */; };
+		C11FE13125E1009B00BC89D8 /* UIDevice+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11FE13025E1009B00BC89D8 /* UIDevice+Util.swift */; };
+		C11FE13425E1010200BC89D8 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11FE13325E1010200BC89D8 /* UITextField+Extension.swift */; };
+		C11FE13725E1016C00BC89D8 /* UIViewController+ImagePick.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11FE13625E1016C00BC89D8 /* UIViewController+ImagePick.swift */; };
+		C11FE13A25E101B300BC89D8 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11FE13925E101B300BC89D8 /* UIViewController+Alert.swift */; };
 		C1D2A4DF1F05E149006CDF2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D2A4DE1F05E149006CDF2F /* AppDelegate.swift */; };
 		C1D2A4E11F05E149006CDF2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D2A4E01F05E149006CDF2F /* ViewController.swift */; };
 		C1D2A4E41F05E149006CDF2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1D2A4E21F05E149006CDF2F /* Main.storyboard */; };
@@ -17,7 +23,7 @@
 		C1D2A4F51F05E297006CDF2F /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D2A4F41F05E297006CDF2F /* ViewExtension.swift */; };
 		C1D2A4F71F05E2C3006CDF2F /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D2A4F61F05E2C3006CDF2F /* ViewControllerExtension.swift */; };
 		C1D2A4F91F05E332006CDF2F /* YJEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D2A4F81F05E332006CDF2F /* YJEmptyView.swift */; };
-		C1D2A4FB1F05E378006CDF2F /* YJColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D2A4FA1F05E378006CDF2F /* YJColor.swift */; };
+		C1D2A4FB1F05E378006CDF2F /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D2A4FA1F05E378006CDF2F /* UIColorExtension.swift */; };
 		C1D2A4FD1F05E3B4006CDF2F /* YJConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D2A4FC1F05E3B4006CDF2F /* YJConfigure.swift */; };
 		C1D2A4FF1F05E3EE006CDF2F /* YJMarco.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D2A4FE1F05E3EE006CDF2F /* YJMarco.swift */; };
 		C1D2A5011F05E425006CDF2F /* YJFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D2A5001F05E425006CDF2F /* YJFont.swift */; };
@@ -32,6 +38,12 @@
 		06236C3EBD48DD95446B2A48 /* Pods-SwiftBaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftBaseProject/Pods-SwiftBaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		2FE8219A2D95CB774FD26591 /* Pods_SwiftBaseProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftBaseProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A7803B32736B705012D2AB2 /* Pods-SwiftBaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftBaseProject/Pods-SwiftBaseProject.release.xcconfig"; sourceTree = "<group>"; };
+		C11FE12825E0FFA800BC89D8 /* String+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Util.swift"; sourceTree = "<group>"; };
+		C11FE12C25E1006300BC89D8 /* Optional+Numeric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+Numeric.swift"; sourceTree = "<group>"; };
+		C11FE13025E1009B00BC89D8 /* UIDevice+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Util.swift"; sourceTree = "<group>"; };
+		C11FE13325E1010200BC89D8 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		C11FE13625E1016C00BC89D8 /* UIViewController+ImagePick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ImagePick.swift"; sourceTree = "<group>"; };
+		C11FE13925E101B300BC89D8 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
 		C1D2A4DB1F05E149006CDF2F /* SwiftBaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftBaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1D2A4DE1F05E149006CDF2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1D2A4E01F05E149006CDF2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,7 +55,7 @@
 		C1D2A4F41F05E297006CDF2F /* ViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
 		C1D2A4F61F05E2C3006CDF2F /* ViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
 		C1D2A4F81F05E332006CDF2F /* YJEmptyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJEmptyView.swift; sourceTree = "<group>"; };
-		C1D2A4FA1F05E378006CDF2F /* YJColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJColor.swift; sourceTree = "<group>"; };
+		C1D2A4FA1F05E378006CDF2F /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		C1D2A4FC1F05E3B4006CDF2F /* YJConfigure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJConfigure.swift; sourceTree = "<group>"; };
 		C1D2A4FE1F05E3EE006CDF2F /* YJMarco.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJMarco.swift; sourceTree = "<group>"; };
 		C1D2A5001F05E425006CDF2F /* YJFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJFont.swift; sourceTree = "<group>"; };
@@ -84,6 +96,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C11FE12B25E0FFD900BC89D8 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				C1D2A4FA1F05E378006CDF2F /* UIColorExtension.swift */,
+				C11FE12825E0FFA800BC89D8 /* String+Util.swift */,
+				C11FE12C25E1006300BC89D8 /* Optional+Numeric.swift */,
+				C11FE13025E1009B00BC89D8 /* UIDevice+Util.swift */,
+				C11FE13325E1010200BC89D8 /* UITextField+Extension.swift */,
+				C11FE13625E1016C00BC89D8 /* UIViewController+ImagePick.swift */,
+				C11FE13925E101B300BC89D8 /* UIViewController+Alert.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		C1D2A4D21F05E149006CDF2F = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +132,7 @@
 		C1D2A4DD1F05E149006CDF2F /* SwiftBaseProject */ = {
 			isa = PBXGroup;
 			children = (
+				C11FE12B25E0FFD900BC89D8 /* Util */,
 				C1D2A4F31F05E27C006CDF2F /* BaseUIKit */,
 				C1D2A4F01F05E23D006CDF2F /* ThridLibrary */,
 				C1D2A4DE1F05E149006CDF2F /* AppDelegate.swift */,
@@ -133,7 +160,6 @@
 				C1D2A4F61F05E2C3006CDF2F /* ViewControllerExtension.swift */,
 				C1D2A5021F05E454006CDF2F /* StringExtension.swift */,
 				C1D2A4F81F05E332006CDF2F /* YJEmptyView.swift */,
-				C1D2A4FA1F05E378006CDF2F /* YJColor.swift */,
 				C1D2A4FC1F05E3B4006CDF2F /* YJConfigure.swift */,
 				C1D2A4FE1F05E3EE006CDF2F /* YJMarco.swift */,
 				C1D2A5001F05E425006CDF2F /* YJFont.swift */,
@@ -157,7 +183,6 @@
 				C1D2A4D81F05E149006CDF2F /* Frameworks */,
 				C1D2A4D91F05E149006CDF2F /* Resources */,
 				D9AF9E3B2976ED5DA8A22D64 /* [CP] Embed Pods Frameworks */,
-				5AB806B2FEF1976E7A77E83B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -175,7 +200,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = "张永杰";
 				TargetAttributes = {
 					C1D2A4DA1F05E149006CDF2F = {
@@ -187,7 +212,7 @@
 			};
 			buildConfigurationList = C1D2A4D61F05E149006CDF2F /* Build configuration list for PBXProject "SwiftBaseProject" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -223,28 +248,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftBaseProject-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		5AB806B2FEF1976E7A77E83B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftBaseProject/Pods-SwiftBaseProject-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D9AF9E3B2976ED5DA8A22D64 /* [CP] Embed Pods Frameworks */ = {
@@ -253,13 +266,26 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftBaseProject/Pods-SwiftBaseProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftBaseProject/Pods-SwiftBaseProject-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftBaseProject/Pods-SwiftBaseProject-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -269,18 +295,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C11FE13425E1010200BC89D8 /* UITextField+Extension.swift in Sources */,
 				C1D2A5051F05E4AE006CDF2F /* ViewEntrance.swift in Sources */,
 				C1D2A4F21F05E24B006CDF2F /* NetWorkTool.swift in Sources */,
 				C1D2A4FD1F05E3B4006CDF2F /* YJConfigure.swift in Sources */,
-				C1D2A4FB1F05E378006CDF2F /* YJColor.swift in Sources */,
+				C1D2A4FB1F05E378006CDF2F /* UIColorExtension.swift in Sources */,
 				C1D2A4FF1F05E3EE006CDF2F /* YJMarco.swift in Sources */,
+				C11FE13A25E101B300BC89D8 /* UIViewController+Alert.swift in Sources */,
 				C1D2A4E11F05E149006CDF2F /* ViewController.swift in Sources */,
 				C1D2A4F51F05E297006CDF2F /* ViewExtension.swift in Sources */,
 				C1D2A4F91F05E332006CDF2F /* YJEmptyView.swift in Sources */,
 				C1D2A5071F05E50D006CDF2F /* YJBaseModel.swift in Sources */,
 				C1D2A50D1F05E91B006CDF2F /* UIImageExtension.swift in Sources */,
 				C1D2A4F71F05E2C3006CDF2F /* ViewControllerExtension.swift in Sources */,
+				C11FE12D25E1006300BC89D8 /* Optional+Numeric.swift in Sources */,
 				C1D2A50F1F05F631006CDF2F /* YJAdScrollView.swift in Sources */,
+				C11FE13725E1016C00BC89D8 /* UIViewController+ImagePick.swift in Sources */,
+				C11FE13125E1009B00BC89D8 /* UIDevice+Util.swift in Sources */,
+				C11FE12925E0FFA800BC89D8 /* String+Util.swift in Sources */,
 				C1D2A4DF1F05E149006CDF2F /* AppDelegate.swift in Sources */,
 				C1D2A5031F05E454006CDF2F /* StringExtension.swift in Sources */,
 				C1D2A5011F05E425006CDF2F /* YJFont.swift in Sources */,
@@ -313,20 +345,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -349,7 +391,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -363,20 +405,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -393,7 +445,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -414,7 +466,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "SwiftBaseProject-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -429,7 +481,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = yuyueyes.SwiftBaseProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "SwiftBaseProject-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
